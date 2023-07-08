@@ -50,8 +50,8 @@ function App() {
       <>
         <Helmet>
           <title>Random Image</title>
-          <meta name="description" content="Check out this random image!" />
-          <meta name="image" content={imageUrl} />
+          <meta property="description" content="Check out this random image!" />
+          <meta property="og:image" content={imageUrl} />
           {/* <meta name="twitter:card" content="summary_large_image" /> */}
           {/* <meta property="og:url" content={data.hostname + window.location.pathname + window.location.search} /> */}
           {/* <meta property="og:image:width" content="400" />
